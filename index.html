@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Тестовое задание</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="page-wrapper">
+	<header class="header">
+		<div class="company">
+			<div class="cell-wrapper">
+				<div class="companiy-name text-bold">Fortexgroup.ru</div>
+				<div class="company-address">Москва, Тестовская улица, 10</div>
+			</div>
+		</div>
+		<span class="middle size-header">Размер</span>
+		<div class="dropdown">
+		  <button data-menu-size-result class="btn dropbtn middle">Все размеры</button>
+		  <div data-menu-size class="dropdown-content">
+		    <a data-menu-size-option="all" href="#">Все размеры</a>
+		    <a data-menu-size-option="big">Большие</a>
+		    <a data-menu-size-option="middle">Средние</a>
+		    <a data-menu-size-option="small">Маленькие</a>
+		  </div>
+		</div>
+		<div class="form_group">
+			<input class="middle right-margin" type="checkbox" id="select_all" name="select_all">
+			<label class="middle" for="select_all">Выбрать все</label>
+		</div>
+		<div class="right-button mibble">
+		  <button onclick="deleteSelected()"  class="btn btn-delete middle">Удалить</button>
+		</div>
+
+	</header>
+	<section class="section">
+		<div class="image-wrapper">
+			<div class="row">
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="small" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="middle" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+				<div data-size="big" class="cell-12">
+					<div class="check_wrapper">
+						<input  type="checkbox" >
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+<script type="text/javascript" src="js/vendor.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
